@@ -136,50 +136,158 @@ Hi! I'm **Professor 👨‍🏫📚**, a passionate **developer**, **economics s
 
 ## 📂 Featured Projects
 
-- 🔹 [**Prof-Tech MVAI Bot**](https://github.com/Professor-Tech/Prof-Tech-MVAI) – Multi-AI Telegram bot w/ fallback APIs, admin menu, font switcher & image support.
-- 🔹 [**LAUTECH Economics Portal**](https://github.com/Professor-Tech/Lautech-Economics) – Student login, course dashboard, secure profile upload, protected access.
-- 🔹 [**Cool Shot Games**](https://github.com/Professor-Tech/Professor_Tech) – Fully upgraded browser games: Solitaire, Spades, sound effects, animations, win states.
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="300">
+      <img src="https://img.shields.io/badge/🤖-Prof--Tech%20MVAI%20Bot-FF6B6B?style=for-the-badge&logo=telegram&logoColor=white" />
+      <br />
+      <a href="https://github.com/Professor-Tech/Prof-Tech-MVAI"><b>Prof-Tech MVAI Bot</b></a>
+      <br />
+      <sub>Multi-AI Telegram bot w/ fallback APIs, admin menu, font switcher & image support</sub>
+    </td>
+    <td align="center" width="300">
+      <img src="https://img.shields.io/badge/🎓-LAUTECH%20Economics%20Portal-4ECDC4?style=for-the-badge&logo=academic&logoColor=white" />
+      <br />
+      <a href="https://github.com/Professor-Tech/Lautech-Economics"><b>LAUTECH Economics Portal</b></a>
+      <br />
+      <sub>Student login, course dashboard, secure profile upload, protected access</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="300">
+      <img src="https://img.shields.io/badge/🎮-Cool%20Shot%20Games-45B7D1?style=for-the-badge&logo=game&logoColor=white" />
+      <br />
+      <a href="https://github.com/Professor-Tech/Professor_Tech"><b>Cool Shot Games</b></a>
+      <br />
+      <sub>Fully upgraded browser games: Solitaire, Spades, sound effects, animations, win states</sub>
+    </td>
+    <td align="center" width="300">
+      <img src="https://img.shields.io/badge/🔧-More%20Projects-96CEB4?style=for-the-badge&logo=github&logoColor=white" />
+      <br />
+      <a href="https://github.com/Professor-Tech?tab=repositories"><b>View All Repositories</b></a>
+      <br />
+      <sub>Explore more amazing projects and contributions</sub>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
 ## 🎯 2025 Goals
 
-- ✅ Deploy multilingual AI bot across platforms  
-- ✅ Build persistent SQLite API layer for bot memory  
-- 📚 Write economic simulation bot for agent behavior  
-- 📈 Launch Prof-Tech MVP as web+mobile AI platform  
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/✅-COMPLETED-28a745?style=for-the-badge" />
+      <br />
+      <b>Deploy multilingual AI bot across platforms</b>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/✅-COMPLETED-28a745?style=for-the-badge" />
+      <br />
+      <b>Build persistent SQLite API layer for bot memory</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/📚-IN%20PROGRESS-ffc107?style=for-the-badge" />
+      <br />
+      <b>Write economic simulation bot for agent behavior</b>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/📈-IN%20PROGRESS-ffc107?style=for-the-badge" />
+      <br />
+      <b>Launch Prof-Tech MVP as web+mobile AI platform</b>
+    </td>
+  </tr>
+</table>
+
+</div>  
 
 ---
 
 ## 📬 Contact Me
 
-- 📧 Email: `oladoyeheritage445@gmail.com`
-- 🤖 Telegram: [@ProfTechMVAI_Bot](https://t.me/ProfTechMVAI_Bot)
-- 🌐 Portfolio: [Cool Shot Designs](https://professor-tech.vercel.app)
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="mailto:oladoyeheritage445@gmail.com">
+        <img src="https://img.shields.io/badge/📧-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+      </a>
+      <br />
+      <sub>oladoyeheritage445@gmail.com</sub>
+    </td>
+    <td align="center">
+      <a href="https://t.me/ProfTechMVAI_Bot">
+        <img src="https://img.shields.io/badge/🤖-Telegram%20Bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Bot" />
+      </a>
+      <br />
+      <sub>@ProfTechMVAI_Bot</sub>
+    </td>
+    <td align="center">
+      <a href="https://professor-tech.vercel.app">
+        <img src="https://img.shields.io/badge/🌐-Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+      </a>
+      <br />
+      <sub>Cool Shot Designs</sub>
+    </td>
+  </tr>
+</table>
+
+### 🤝 Let's Connect!
+<p>
+  <a href="https://github.com/Professor-Tech">
+    <img src="https://img.shields.io/badge/Follow%20on%20GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Follow on GitHub" />
+  </a>
+</p>
+
+</div>
 
 ---
 
 ## 🔗 Quick Access
 
+<div align="center">
+
 <table>
   <tr>
-    <td><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://professor-tech.vercel.app" alt="QR Code to website" /></td>
-    <td><a href="https://professor-tech.vercel.app"><b>Click to Visit My Website</b></a></td>
+    <td align="center">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://professor-tech.vercel.app&bgcolor=0D1117&color=58a6ff&format=png&margin=10" alt="QR Code to website" />
+    </td>
+    <td align="center" style="padding-left: 20px;">
+      <a href="https://professor-tech.vercel.app">
+        <img src="https://img.shields.io/badge/🚀-Visit%20My%20Website-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Visit Website" />
+      </a>
+      <br /><br />
+      <sub><b>Scan the QR code or click the button to explore my portfolio!</b></sub>
+    </td>
   </tr>
 </table>
 
 <!-- Optional resume button -->
 <!-- 
-<p>
+<p align="center">
   <a href="https://your_resume_link_here.com" target="_blank">
-    <img src="https://img.shields.io/badge/View_Resume-PDF-orange?style=for-the-badge&logo=adobe-acrobat-reader" alt="Resume">
+    <img src="https://img.shields.io/badge/📄-View%20Resume-FF6B6B?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="Resume">
   </a>
 </p>
 -->
 
+</div>
+
 ---
 
 ## 🧠 Fun Dev Loop
+
+<div align="center">
 
 ```js
 while (life) {
@@ -188,3 +296,12 @@ while (life) {
   teach();
   repeat();
 }
+```
+
+<sub><i>"Code. Solve. Teach. Repeat. That's my endless loop of passion! 🚀"</i></sub>
+
+---
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=20&fontColor=fff&animation=twinkling" width="100%" />
+
+</div>
