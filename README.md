@@ -1,4 +1,3 @@
-````markdown name=README.md
 <div align="center">
 
 <!-- Brand Header -->
@@ -487,4 +486,3 @@ while (life) {
   </p>
   
 </div>
-```
