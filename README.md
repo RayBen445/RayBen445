@@ -15,6 +15,51 @@
   <p><b style="color: #00ff99;">Full-Stack Developer</b> | <b style="color: #ffa500;">Economics Student</b> | <b style="color: #8b5cf6;">AI Explorer</b></p>
   <p><i>✨ Turning ideas into reality, one commit at a time ✨</i></p>
   
+  <!-- Real-time Date & Time -->
+  <div style="margin: 15px 0; padding: 10px; background: linear-gradient(45deg, #00cfff22, #8b5cf622); border-radius: 10px; border: 1px solid #00cfff44;">
+    <p style="margin: 0;"><strong>📅 Current Date:</strong> <span id="current-date" style="color: #00ff99;"></span></p>
+    <p style="margin: 5px 0 0 0;"><strong>🕒 Live Time:</strong> <span id="current-time" style="color: #00cfff;"></span></p>
+  </div>
+  
+  <script>
+    function updateDateTime() {
+      const now = new Date();
+      
+      // Format date as "Thursday, 7th September 2025"
+      const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+      const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+      
+      const dayName = days[now.getDay()];
+      const day = now.getDate();
+      const month = months[now.getMonth()];
+      const year = now.getFullYear();
+      
+      // Add ordinal suffix (1st, 2nd, 3rd, 4th, etc.)
+      const getOrdinal = (n) => {
+        const s = ["th", "st", "nd", "rd"];
+        const v = n % 100;
+        return n + (s[(v - 20) % 10] || s[v] || s[0]);
+      };
+      
+      const formattedDate = `${dayName}, ${getOrdinal(day)} ${month} ${year}`;
+      
+      // Format time with seconds
+      const time = now.toLocaleTimeString('en-US', { 
+        hour12: true, 
+        hour: '2-digit', 
+        minute: '2-digit', 
+        second: '2-digit' 
+      });
+      
+      document.getElementById('current-date').textContent = formattedDate;
+      document.getElementById('current-time').textContent = time;
+    }
+    
+    // Update immediately and then every second
+    updateDateTime();
+    setInterval(updateDateTime, 1000);
+  </script>
+  
   <!-- Brand Banner -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=00cfff,00ff99,8b5cf6&height=100&section=header&text=Welcome%20to%20My%20Digital%20Space&fontSize=24&fontColor=ffffff&animation=fadeIn" alt="Welcome banner with brand colors"/>
 
@@ -75,6 +120,43 @@
 
 ---
 
+## 🌟 Best Repository Showcase
+> *Highlighting my most impactful and innovative project*
+
+<div align="center" style="background: linear-gradient(135deg, #00cfff11, #00ff9911); padding: 25px; border-radius: 15px; border: 2px solid #00cfff33; margin: 20px 0;">
+
+### 🤖 [RayBenAI Bot](https://github.com/RayBen445/RayBenAI) 
+**Multi-AI Telegram Bot with Admin Panel & Advanced Features**
+
+<img src="https://files.catbox.moe/awjon2.jpg" width="400" style="border-radius: 10px; box-shadow: 0 4px 15px rgba(0,207,255,0.3);" alt="RayBenAI Bot interface showing multiple AI models, admin panel, and user interactions"/>
+
+#### ✨ **Why This Is My Best Work:**
+- **🧠 Multi-AI Integration:** GPT-4, Claude, Gemini all in one bot
+- **⚙️ Advanced Admin Panel:** Real-time user management & analytics  
+- **🎨 Font Switcher:** 15+ artistic text styles for creative expression
+- **📊 Usage Analytics:** Detailed tracking and user behavior insights
+- **🔒 Security First:** Rate limiting, spam protection, admin controls
+- **📈 Scale:** Serving 1000+ active users daily
+
+#### 🛠️ **Tech Stack:**
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![Telegram API](https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white)
+![OpenAI API](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
+
+#### 📈 **Impact Metrics:**
+- **👥 1000+ Active Users** | **💬 50K+ Messages Processed** | **⭐ 4.8/5 User Rating** | **🚀 99.9% Uptime**
+
+<p align="center">
+  <a href="https://github.com/RayBen445/RayBenAI"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://t.me/RayBenAI_Bot"><img src="https://img.shields.io/badge/Try%20Live%20Bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>
+</p>
+
+</div>
+
+---
+
 ## 🚀 About Me
 
 <table>
@@ -85,7 +167,8 @@
     <td>
       <b>RayBen445</b> – Dev, economics student, and AI explorer.<br>
       Building smart bots and automations for real-world impact.<br>
-      <b>Current focus:</b> Multi-AI bots, scalable APIs, and economic models.
+      <b>Current focus:</b> Multi-AI bots, scalable APIs, and economic models.<br>
+      <b>Education:</b> 200 Level Economics Student at Ladoke Akintola University of Technology (LAUTECH)
     </td>
   </tr>
 </table>
@@ -101,21 +184,23 @@
 timeline
     title RayBen445's Development Journey
     
-    2022 : Started Economics Studies
+    2022 : Discovered Programming
          : First Python Script
-         : Discovered Programming
+         : Started Coding Journey
     
     2023 : Built First Web App
          : Learning JavaScript & Node.js
          : First GitHub Repository
          : Economics Portal Project
     
-    2024 : Multi-AI Bot Development
+    2024 : Started Economics at LAUTECH
+         : Multi-AI Bot Development
          : Hackathon Finalist
          : Open Source Contributor
          : Vercel Deployment Master
     
-    2025 : AI Platform Launch (Goal)
+    2025 : Currently 200 Level Student
+         : AI Platform Launch (Goal)
          : Economic Simulation Bot
          : Full-Stack Mastery
          : Community Building
@@ -127,12 +212,14 @@ timeline
 
 | 📅 Year | 🎯 Milestone | 💡 Impact |
 |---------|-------------|-----------|
-| **2022** | 🎓 Started Economics Degree | Combined passion for data with economic theory |
+| **2022** | 🖥️ Discovered Programming | Started coding journey with Python scripts |
 | **2023** | 🌐 First Full-Stack App | Economics Portal with authentication & file uploads |
 | **2023** | 🏆 Hackathon Finalist | 2nd place with AI-powered economic simulation |
+| **Nov 2024** | 🎓 Started Economics at LAUTECH | Combining passion for data with economic theory |
 | **2024** | 🤖 RayBenAI Bot Launch | Multi-AI Telegram bot serving 1000+ users |
 | **2024** | 🚀 Open Source Contributor | 15+ repositories, 200+ commits |
 | **2024** | 🎮 Cool Shot Games | Browser games with advanced animations |
+| **2025** | 📚 200 Level Economics Student | Currently studying at Ladoke Akintola University of Technology |
 
 ---
 
