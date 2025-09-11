@@ -60,6 +60,140 @@
     setInterval(updateDateTime, 1000);
   </script>
   
+  <!-- Advanced Interactive Features -->
+  <div style="margin: 20px 0;">
+    
+    <!-- Visitor Counter -->
+    <div style="margin: 10px 0;">
+      <img src="https://komarev.com/ghpvc/?username=RayBen445&style=for-the-badge&color=00cfff&label=Profile+Views" alt="Profile Views Counter" />
+      <img src="https://img.shields.io/github/followers/RayBen445?style=for-the-badge&color=00ff99&label=Followers" alt="GitHub Followers" />
+    </div>
+    
+    <!-- Current Weather Widget -->
+    <div style="margin: 15px 0; padding: 10px; background: linear-gradient(45deg, #00cfff11, #00ff9911); border-radius: 10px; border: 1px solid #00cfff44;">
+      <p style="margin: 0;"><strong>🌤️ Current Weather:</strong></p>
+      <a href="https://wttr.in/Lagos"><img src="https://wttr.in/Lagos.png?0&background=00cfff11" width="350" alt="Current weather in Lagos, Nigeria" style="border-radius: 5px;"/></a>
+    </div>
+    
+    <!-- Music Player -->
+    <div style="margin: 15px 0; padding: 10px; background: linear-gradient(45deg, #8b5cf611, #ffa50011); border-radius: 10px; border: 1px solid #8b5cf644;">
+      <p style="margin: 0;"><strong>🎵 Currently Playing:</strong></p>
+      <audio controls style="width: 100%; margin-top: 5px;">
+        <source src="https://files.catbox.moe/4vb6xe.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <p style="font-size: 12px; margin: 5px 0 0 0; opacity: 0.8;">🎧 My coding soundtrack - perfect focus music!</p>
+    </div>
+    
+    <!-- Quote of the Day -->
+    <div style="margin: 15px 0; padding: 10px; background: linear-gradient(45deg, #ffa50011, #00ff9911); border-radius: 10px; border: 1px solid #ffa50044;">
+      <p style="margin: 0;"><strong>💭 Daily Inspiration:</strong></p>
+      <div id="daily-quote" style="font-style: italic; color: #00ff99; margin-top: 5px;">
+        "Code is like humor. When you have to explain it, it's bad." - Cory House
+      </div>
+      <p style="font-size: 10px; margin: 5px 0 0 0; opacity: 0.6;">Updates daily with developer wisdom</p>
+    </div>
+    
+    <script>
+      // Quote of the Day rotation
+      const quotes = [
+        {text: "Code is like humor. When you have to explain it, it's bad.", author: "Cory House"},
+        {text: "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.", author: "Martin Fowler"},
+        {text: "First, solve the problem. Then, write the code.", author: "John Johnson"},
+        {text: "Experience is the name everyone gives to their mistakes.", author: "Oscar Wilde"},
+        {text: "In order to be irreplaceable, one must always be different.", author: "Coco Chanel"},
+        {text: "Java is to JavaScript what car is to Carpet.", author: "Chris Heilmann"},
+        {text: "Knowledge is power.", author: "Francis Bacon"},
+        {text: "Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday's code.", author: "Dan Salomon"},
+        {text: "Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.", author: "Antoine de Saint-Exupery"},
+        {text: "Ruby is rubbish! PHP is phpantastic!", author: "Nikita Popov"}
+      ];
+      
+      function updateDailyQuote() {
+        const today = new Date();
+        const dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+        const quoteIndex = dayOfYear % quotes.length;
+        const todaysQuote = quotes[quoteIndex];
+        
+        document.getElementById('daily-quote').innerHTML = 
+          `"${todaysQuote.text}" <br><span style="font-size: 12px; opacity: 0.8;">- ${todaysQuote.author}</span>`;
+      }
+      
+      updateDailyQuote();
+    </script>
+    
+    <!-- GitHub Contribution Heatmap -->
+    <div style="margin: 15px 0;">
+      <p style="margin: 0;"><strong>📊 2025 GitHub Activity:</strong></p>
+      <img src="https://ghchart.rshah.org/00cfff/RayBen445" alt="RayBen445's GitHub contribution graph" style="width: 100%; border-radius: 5px; margin-top: 5px;"/>
+    </div>
+    
+    <!-- Interactive Code Snippet -->
+    <div style="margin: 15px 0; padding: 10px; background: linear-gradient(45deg, #00cfff11, #8b5cf611); border-radius: 10px; border: 1px solid #00cfff44;">
+      <p style="margin: 0;"><strong>⚡ Interactive Code Playground:</strong></p>
+      <div style="background: #1a1a2e; padding: 10px; border-radius: 5px; margin-top: 5px; font-family: 'Courier New', monospace;">
+        <div style="color: #00ff99; font-size: 12px; margin-bottom: 5px;">// Try this interactive JavaScript snippet!</div>
+        <div style="color: #00cfff;">
+          <span style="color: #8b5cf6;">function</span> <span style="color: #ffa500;">greetDeveloper</span><span style="color: #ffffff;">(name) {</span><br>
+          &nbsp;&nbsp;<span style="color: #8b5cf6;">const</span> <span style="color: #ffffff;">greeting = </span><span style="color: #00ff99;">`Hello ${name}! 🚀`</span><span style="color: #ffffff;">;</span><br>
+          &nbsp;&nbsp;<span style="color: #8b5cf6;">return</span> <span style="color: #ffffff;">greeting;</span><br>
+          <span style="color: #ffffff;">}</span><br><br>
+          <span style="color: #00ff99;">// Click the button to run!</span><br>
+          <button onclick="runCode()" style="background: #00cfff; color: #1a1a2e; border: none; padding: 5px 10px; border-radius: 3px; margin-top: 5px; cursor: pointer; font-weight: bold;">Run Code</button>
+          <div id="code-output" style="color: #00ff99; margin-top: 5px; min-height: 20px;"></div>
+        </div>
+      </div>
+      <script>
+        function runCode() {
+          function greetDeveloper(name) {
+            const greeting = `Hello ${name}! 🚀`;
+            return greeting;
+          }
+          
+          const result = greetDeveloper('Fellow Developer');
+          document.getElementById('code-output').innerHTML = `<strong>Output:</strong> ${result}`;
+        }
+      </script>
+      <p style="font-size: 12px; margin: 5px 0 0 0; opacity: 0.8;">🎮 Interactive JavaScript demo - click to run!</p>
+    </div>
+    
+    <!-- 3D GitHub Skyline -->
+    <div style="margin: 15px 0;">
+      <p style="margin: 0;"><strong>🏙️ 3D GitHub Skyline:</strong></p>
+      <a href="https://skyline.github.com/RayBen445/2024" target="_blank">
+        <img src="https://github-readme-stats.vercel.app/api?username=RayBen445&show_icons=true&theme=tokyonight&bg_color=00cfff11&title_color=00cfff&icon_color=00ff99&text_color=ffffff&border_color=00cfff44" alt="3D visualization of RayBen445's GitHub contributions" style="width: 100%; border-radius: 10px; margin-top: 5px; box-shadow: 0 4px 15px rgba(0,207,255,0.3);"/>
+      </a>
+      <p style="font-size: 12px; margin: 5px 0 0 0; opacity: 0.8;">🌃 Click to explore my GitHub activity in 3D at skyline.github.com!</p>
+    </div>
+    
+    <!-- Spotify Integration -->
+    <div style="margin: 15px 0;">
+      <p style="margin: 0;"><strong>🎶 Spotify Activity:</strong></p>
+      <img src="https://spotify-github-profile.vercel.app/api/view?uid=rayban445&cover_image=true&theme=novatorem&show_offline=true&background_color=00cfff11&border_color=00cfff44" alt="Spotify Now Playing" style="width: 100%; margin-top: 5px; border-radius: 10px;"/>
+    </div>
+    
+    <!-- Social Media Integration -->
+    <div style="margin: 15px 0; padding: 10px; background: linear-gradient(45deg, #8b5cf611, #00cfff11); border-radius: 10px; border: 1px solid #8b5cf644;">
+      <p style="margin: 0;"><strong>🌐 Social Media Feed:</strong></p>
+      <div style="display: flex; gap: 10px; margin-top: 10px; flex-wrap: wrap;">
+        <a href="https://twitter.com/RayBen445" target="_blank">
+          <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Profile"/>
+        </a>
+        <a href="https://dev.to/rayben445" target="_blank">
+          <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="Dev.to Profile"/>
+        </a>
+        <a href="https://medium.com/@rayben445" target="_blank">
+          <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium Profile"/>
+        </a>
+        <a href="https://linkedin.com/in/rayben445" target="_blank">
+          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile"/>
+        </a>
+      </div>
+      <p style="font-size: 12px; margin: 5px 0 0 0; opacity: 0.8;">📱 Follow for updates on projects, coding tips, and tech insights!</p>
+    </div>
+    
+  </div>
+
   <!-- Brand Banner -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=00cfff,00ff99,8b5cf6&height=100&section=header&text=Welcome%20to%20My%20Digital%20Space&fontSize=24&fontColor=ffffff&animation=fadeIn" alt="Welcome banner with brand colors"/>
 
