@@ -120,40 +120,130 @@
 
 ---
 
-## 🌟 Best Repository Showcase
-> *Highlighting my most impactful and innovative project*
+## 🌟 Top Repositories Showcase
+> *Explore my best projects, innovations, and contributions*
 
-<div align="center" style="background: linear-gradient(135deg, #00cfff11, #00ff9911); padding: 25px; border-radius: 15px; border: 2px solid #00cfff33; margin: 20px 0;">
+<div align="center" style="background: linear-gradient(135deg, #00cfff11, #00ff9911); padding: 20px; border-radius: 15px; border: 2px solid #00cfff33; margin: 20px 0;">
 
-### 🤖 [RayBenAI Bot](https://github.com/RayBen445/RayBenAI) 
-**Multi-AI Telegram Bot with Admin Panel & Advanced Features**
+### 👑 **Currently Featured as Best**
 
-<img src="https://files.catbox.moe/awjon2.jpg" width="400" style="border-radius: 10px; box-shadow: 0 4px 15px rgba(0,207,255,0.3);" alt="RayBenAI Bot interface showing multiple AI models, admin panel, and user interactions"/>
+### 🎓 [class29-portal](https://github.com/RayBen445/class29-portal) 
+**Department Portal & Student Management System**
 
-#### ✨ **Why This Is My Best Work:**
-- **🧠 Multi-AI Integration:** GPT-4, Claude, Gemini all in one bot
-- **⚙️ Advanced Admin Panel:** Real-time user management & analytics  
-- **🎨 Font Switcher:** 15+ artistic text styles for creative expression
-- **📊 Usage Analytics:** Detailed tracking and user behavior insights
-- **🔒 Security First:** Rate limiting, spam protection, admin controls
-- **📈 Scale:** Serving 1000+ active users daily
+<img src="https://files.catbox.moe/30f8ve.jpg" width="400" style="border-radius: 10px; box-shadow: 0 4px 15px rgba(0,207,255,0.3);" alt="University portal interface showing student dashboard and economics resources"/>
+
+#### ✨ **Why This Is Currently Featured:**
+- **🎓 Educational Impact:** Serving university students and faculty
+- **👥 Community Reach:** 3 stars, 2 forks - active community engagement
+- **📚 Academic Integration:** Perfect blend of economics and technology
+- **🔐 Secure Access:** Authentication system for protected content
+- **📊 Real Usage:** Actively used by Economics students at LAUTECH
 
 #### 🛠️ **Tech Stack:**
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![Telegram API](https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white)
-![OpenAI API](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
 #### 📈 **Impact Metrics:**
-- **👥 1000+ Active Users** | **💬 50K+ Messages Processed** | **⭐ 4.8/5 User Rating** | **🚀 99.9% Uptime**
-
-<p align="center">
-  <a href="https://github.com/RayBen445/RayBenAI"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://t.me/RayBenAI_Bot"><img src="https://img.shields.io/badge/Try%20Live%20Bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>
-</p>
+- **⭐ 3 Stars** | **🍴 2 Forks** | **📅 Active Development** | **🎯 Educational Focus**
 
 </div>
+
+### 🏆 **Top 10 Repositories** 
+*Ranked by stars, forks, and community impact*
+
+<table width="100%">
+<tr>
+<td width="50%">
+
+#### 🥇 **Most Starred & Active**
+
+| Rank | Repository | Stars | Forks | Language |
+|------|------------|-------|-------|----------|
+| **1** | 🎓 [**class29-portal**](https://github.com/RayBen445/class29-portal) | ⭐ 3 | 🍴 2 | HTML |
+| **2** | 🤖 [**cs-assistant**](https://github.com/RayBen445/cs-assistant) | ⭐ 2 | 🍴 2 | JavaScript |
+| **3** | 🎮 [**Cool-shot-site**](https://github.com/RayBen445/Cool-shot-site) | ⭐ 2 | 🍴 1 | TypeScript |
+| **4** | 🎨 [**CSS-SESSION-**](https://github.com/RayBen445/CSS-SESSION-) | ⭐ 2 | 🍴 1 | HTML |
+| **5** | 💬 [**WhatsApp-New**](https://github.com/RayBen445/WhatsApp-New) | ⭐ 2 | 🍴 1 | JavaScript |
+
+</td>
+<td width="50%">
+
+#### 🚀 **Featured Projects**
+
+| Rank | Repository | Stars | Forks | Language |
+|------|------------|-------|-------|----------|
+| **6** | 🖥️ [**My-Server-**](https://github.com/RayBen445/My-Server-) | ⭐ 2 | 🍴 1 | TypeScript |
+| **7** | 🧠 [**Prof-Tech_MVAI**](https://github.com/RayBen445/Prof-Tech_MVAI) | ⭐ 2 | 🍴 1 | JavaScript |
+| **8** | 🔧 [**Official-Cool-Shot-Systems**](https://github.com/RayBen445/Official-Cool-Shot-Systems) | ⭐ 1 | 🍴 0 | TypeScript |
+| **9** | 💝 [**expressing-love**](https://github.com/RayBen445/expressing-love) | ⭐ 1 | 🍴 0 | HTML |
+| **10** | 🌐 [**Web**](https://github.com/RayBen445/Web) | ⭐ 1 | 🍴 1 | TypeScript |
+
+</td>
+</tr>
+</table>
+
+### 🎯 **Repository Categories**
+
+<details>
+<summary>🤖 <strong>AI & Bot Development</strong> (6 repositories)</summary>
+
+| Repository | Description | Tech Stack | Status |
+|------------|-------------|------------|--------|
+| [**cs-assistant**](https://github.com/RayBen445/cs-assistant) | Coding assistant for students | JavaScript | ⭐ 2 🍴 2 |
+| [**Prof-Tech_MVAI**](https://github.com/RayBen445/Prof-Tech_MVAI) | Multi-agent AI research platform | JavaScript | ⭐ 2 🍴 1 |
+| [**ChatBot**](https://github.com/RayBen445/ChatBot) | Smart chat assistant | JavaScript | ⭐ 1 |
+| [**My-Bot**](https://github.com/RayBen445/My-Bot) | Personal Telegram bot | JavaScript | ⭐ 1 |
+| [**CS-Assistant-**](https://github.com/RayBen445/CS-Assistant-) | WhatsApp bot by Cool Shot Systems | JavaScript | ⭐ 1 |
+| [**Personal-Assistant-**](https://github.com/RayBen445/Personal-Assistant-) | AI personal assistant | JavaScript | ⭐ 1 |
+
+</details>
+
+<details>
+<summary>🎓 <strong>Educational & Economics</strong> (4 repositories)</summary>
+
+| Repository | Description | Tech Stack | Status |
+|------------|-------------|------------|--------|
+| [**class29-portal**](https://github.com/RayBen445/class29-portal) | University department portal | HTML/CSS/JS | ⭐ 3 🍴 2 |
+| [**Economics-Class-29**](https://github.com/RayBen445/Economics-Class-29) | Department class management | TypeScript | ⭐ 1 🍴 1 |
+| [**Economics-Website-**](https://github.com/RayBen445/Economics-Website-) | Economics learning platform | TypeScript | ⭐ 1 🍴 1 |
+| [**lautech-frontend**](https://github.com/RayBen445/lautech-frontend) | University frontend portal | HTML | ⭐ 1 |
+
+</details>
+
+<details>
+<summary>🎮 <strong>Games & Entertainment</strong> (3 repositories)</summary>
+
+| Repository | Description | Tech Stack | Status |
+|------------|-------------|------------|--------|
+| [**Cool-shot-site**](https://github.com/RayBen445/Cool-shot-site) | Browser games with animations | TypeScript | ⭐ 2 🍴 1 |
+| [**expressing-love**](https://github.com/RayBen445/expressing-love) | Creative web experiment | HTML | ⭐ 1 |
+| [**Business-Empire-**](https://github.com/RayBen445/Business-Empire-) | Business simulation game | TypeScript | ⭐ 1 🍴 1 |
+
+</details>
+
+<details>
+<summary>💻 <strong>Web Development & Tools</strong> (5 repositories)</summary>
+
+| Repository | Description | Tech Stack | Status |
+|------------|-------------|------------|--------|
+| [**Official-Cool-Shot-Systems**](https://github.com/RayBen445/Official-Cool-Shot-Systems) | Official company platform | TypeScript | ⭐ 1 |
+| [**My-Server-**](https://github.com/RayBen445/My-Server-) | Custom server simulator | TypeScript | ⭐ 2 🍴 1 |
+| [**Web**](https://github.com/RayBen445/Web) | Web development projects | TypeScript | ⭐ 1 🍴 1 |
+| [**vite-react**](https://github.com/RayBen445/vite-react) | React development setup | CSS | ⭐ 1 |
+| [**New-Web**](https://github.com/RayBen445/New-Web) | Modern web application | JavaScript | ⭐ 1 |
+
+</details>
+
+### 🔄 **How to Change the Featured Repository**
+
+Want to feature a different repository? The featured repository can be changed based on:
+- **📈 Performance metrics** (stars, forks, activity)
+- **🎯 Current relevance** (active development, usage)
+- **💡 Innovation level** (new features, tech stack)
+- **👥 Community impact** (user engagement, educational value)
+
+*The currently featured repository rotates based on these criteria and community feedback.*
 
 ---
 
@@ -277,24 +367,17 @@ timeline
 
 ---
 
-## 🌟 Featured Projects
+## 🌟 Quick Project Access
 
-| Project | Description |
-|---|---|
-| [**RayBenAI Bot**](https://github.com/RayBen445/RayBenAI) | 🤖 Multi-AI Telegram bot, admin panel, font switcher, image support |
-| [**Economics Portal**](https://github.com/RayBen445/Economics-Portal) | 📚 Student login, dashboard, secure uploads, protected access |
-| [**Cool Shot Games**](https://github.com/RayBen445/Cool-Shot-Games) | 🎮 Browser games with sound, animation, and win states |
+<p align="center">
+  <a href="https://github.com/RayBen445/class29-portal"><img src="https://img.shields.io/badge/🎓%20Featured%20Portal-class29--portal-00cfff?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/RayBen445/cs-assistant"><img src="https://img.shields.io/badge/🤖%20AI%20Assistant-cs--assistant-00ff99?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/RayBen445/Cool-shot-site"><img src="https://img.shields.io/badge/🎮%20Games-Cool--shot--site-ffa500?style=for-the-badge&logo=github" /></a>
+</p>
 
-<details>
-  <summary><b>View More Projects</b></summary>
-  <ul>
-    <li><a href="https://github.com/RayBen445/cs-assistant">cs-assistant</a>: Coding assistant for students.</li>
-    <li><a href="https://github.com/RayBen445/Economics-Class-29">Economics-Class-29</a>: Class portal and resources.</li>
-    <li><a href="https://github.com/RayBen445/expressing-love">expressing-love</a>: Creative web experiment.</li>
-    <li><a href="https://github.com/RayBen445/ChatBot">ChatBot</a>: Smart chat assistant.</li>
-    <li><a href="https://github.com/RayBen445/Prof-Tech_MVAI">Prof-Tech_MVAI</a>: Multi-agent AI research.</li>
-  </ul>
-</details>
+<p align="center">
+  <a href="https://github.com/RayBen445?tab=repositories"><img src="https://img.shields.io/badge/View%20All%20Repositories%20(40)-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
 
 ---
 
