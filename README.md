@@ -220,7 +220,7 @@
       <b>RayBen445</b> – Dev, economics student, and AI explorer.<br>
       Building smart bots and automations for real-world impact.<br>
       <b>Current focus:</b> Multi-AI bots, scalable APIs, and economic models.<br>
-      <b>Education:</b> 200 Level Economics Student at Ladoke Akintola University of Technology (LAUTECH)<br>
+      <b>Education:</b> 2nd Year Economics Student at Ladoke Akintola University of Technology (LAUTECH)<br>
       <b>Experience:</b> 2+ years in full-stack development and AI integration
     </td>
   </tr>
@@ -332,12 +332,12 @@
 ### 🎯 Skill Proficiency Matrix
 | Skill Category | Technologies | Proficiency |
 |----------------|-------------|-------------|
-| **Frontend** | HTML, CSS, JavaScript, React | ████████░░ 80% |
-| **Backend** | Node.js, Express, APIs | ███████░░░ 75% |
-| **AI/ML** | AI APIs, Bot Development | ███████░░░ 70% |
-| **Database** | SQLite, Data Modeling | ██████░░░░ 65% |
-| **DevOps** | Git, Vercel, Linux | ██████░░░░ 60% |
-| **Economics** | Data Analysis, Modeling | ███████░░░ 70% |
+| **Frontend** | HTML, CSS, JavaScript, React | 80% |
+| **Backend** | Node.js, Express, APIs | 75% |
+| **AI/ML** | AI APIs, Bot Development | 70% |
+| **Database** | SQLite, Data Modeling | 65% |
+| **DevOps** | Git, Vercel, Linux | 60% |
+| **Economics** | Data Analysis, Modeling | 70% |
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=js,ts,nodejs,python,react,express,sqlite,git,linux,vercel,vscode,docker" height="50" />
